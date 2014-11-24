@@ -38,13 +38,33 @@
 		color: #777;
 	}
 
-	h1,h2,h3,h4,h5,h6
+	h1,h2,h3
 	{
 		font-weight: 600;
 		text-transform: uppercase;
 		color: #888;
 	}
 
+	h4{
+		font-weight: 600;
+		text-transform: uppercase;
+		color: #888;
+		text-indent: 50px;
+	}
+
+	h5{
+		font-weight: 600;
+		text-transform: uppercase;
+		color: #888;
+		text-indent: 100px;
+	}
+
+	h6{
+		font-weight: 600;
+		text-transform: uppercase;
+		color: #888;
+		text-indent: 150px;
+	}
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 		{
 			color: inherit;
@@ -765,6 +785,7 @@
 					-o-transition: color 0.25s ease-in-out;
 					-ms-transition: color 0.25s ease-in-out;
 					transition: color 0.25s ease-in-out;
+
 				}
 
 			#nav > ul > li.active,
@@ -786,6 +807,9 @@
 
 					#nav > ul > li.active > a > span,
 					#nav > ul > li:hover > a > span
+
+
+
 					{
 						color: #ED786A;
 					}
